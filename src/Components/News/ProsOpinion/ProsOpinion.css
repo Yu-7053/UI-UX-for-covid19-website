@@ -1,0 +1,46 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.prosOpinion {
+  width: 80%;
+  margin-top: 5% ;
+  margin-left: 10%;
+  height: 250px;
+}
+
+.slide img {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.7);
+  transition: transform 300ms;
+  opacity: 0.6;
+}
+
+.activeSlide {
+  transform: scale(0.7);
+  opacity: 1;
+}
+
+.arrow {
+  
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+
+
+
+.next {
+  right: 0%;
+  top: 40%;
+}
+
+.prev {
+  left: 0%;
+  top: 40%;
+}

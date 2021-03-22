@@ -1,0 +1,8 @@
+.glanceOfDashboard__stats{
+    display:flex;
+    
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-left: 100px;
+    
+}

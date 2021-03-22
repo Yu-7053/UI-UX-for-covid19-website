@@ -1,0 +1,15 @@
+.leaflet-container {
+  /* background-color: white; */
+  /* background-color: rgb(178, 210, 222); */
+  background-color: rgb(163, 206, 255);
+  height: 95%;
+}
+
+.covidMap{
+  height:600px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 16px;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.5);
+}

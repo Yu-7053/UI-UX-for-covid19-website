@@ -1,0 +1,47 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.globalNews {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  height: 200px; 
+}
+
+.slide img {
+  width: 20rem;
+  margin: 10px;
+}
+
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.6;
+}
+
+.activeSlide {
+  height: 100px;
+  width: 500px;
+  opacity: 1;
+}
+
+.arrow {
+  
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+
+
+
+.next {
+  right: 0%;
+  top: 40%;
+}
+
+.prev {
+  left: 0%;
+  top: 40%;
+}

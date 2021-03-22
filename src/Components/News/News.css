@@ -1,0 +1,11 @@
+.news {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+@media (max-width: 990px) {
+    .dashboard{
+        flex-direction : column;
+    }
+}

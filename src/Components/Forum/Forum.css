@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+  }
+
+
+
+.forum{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2%;
+    width:100%;
+}
+
+.forum_title{
+    margin-left: 3%;
+}
+
+.forum_select{
+    margin-left: 3%;
+}
+
+
+
+@media (max-width: 990px) {
+    .forum{
+        flex-direction : column;
+    }
+}
